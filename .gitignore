@@ -1,0 +1,42 @@
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated files
+dist/
+build/
+
+# Node modules (if you're using Node.js for any reason)
+node_modules/
+
+# SSL certificates (if you're managing them locally)
+*.pem
+*.key
+*.crt
+
+# Backup files
+*.bak
+*~
+
+# Any local configuration that shouldn't be in version control
+*local.conf
